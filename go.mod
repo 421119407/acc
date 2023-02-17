@@ -1,4 +1,4 @@
-module github.com/421119407/acc
+module github.com/421119407/acc/v2
 
 go 1.16
 
