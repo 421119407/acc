@@ -24,6 +24,7 @@ type RunFunc func(server *Server) error
 
 func (server *Server) AddCommand(command *cobra.Command) *Server {
 	server.childCommand = append(server.childCommand, command)
+	fmt.Println("")
 	return server
 }
 
